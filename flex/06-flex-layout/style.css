@@ -25,3 +25,104 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+
+/* ======================  Solution goes from here  ================ */
+
+li{
+  list-style-type: none;
+}
+
+
+ .left-links {
+  display: flex;
+  /* justify-content: flex-start; */
+  gap: 12px;
+  /* margin: 0; */
+  padding: 0;
+  /* padding-inline-start: 0; */
+}
+
+.right-links  {
+  /* background-color: black; */
+  display: flex;
+  gap: 12px;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* padding-inline-start: 0; */
+  /* justify-content: flex-end; */
+}
+
+
+.right-links, .left-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+  gap: 2px;
+
+}
+
+
+body {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+button {
+  padding: 8px 16px;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.header, .footer {
+  padding: 12px;
+  color: gray;
+}
+
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
+
