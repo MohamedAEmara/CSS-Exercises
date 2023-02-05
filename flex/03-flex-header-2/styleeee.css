@@ -12,13 +12,6 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
-  
-  align-items: center;
-  padding: 8px;
-
-  display: flex;
-  justify-content: space-between;
 }
 
 .profile-image {
@@ -27,8 +20,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  min-width: 48px;
-
 }
 
 .logo {
@@ -36,7 +27,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin-right: 0px;
 }
 
 button {
@@ -45,40 +35,41 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  justify-self: flex-end;
-  display: flex;
-  justify-content: space-between;
-  min-width: 100px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  /* margin: 8px; */
 }
 
 ul {
-  /* background-color: blue; */
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  padding-inline-start: 0;
-  gap: 16px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+}
+
+.links {
+    display: flex;
+    padding: 0;            
+    align-items: center;
+    gap: 16px;
 
 }
 
 
-.container1 {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+.container1, .container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 
-  
-}
 
-.container2 {
-  display: flex;
-  align-items: center;
-  gap: 16px;
 }
