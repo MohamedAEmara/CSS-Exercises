@@ -26,3 +26,92 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* -------------------- Solution -------------------- */
+
+/* Remove the bullet points from the list */
+
+li {
+  list-style-type: none;
+  
+}
+
+
+/* Make the four boxes a flex box */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.sidebar {
+  padding: 16px;
+  min-width: 300px;
+  flex-shrink: 0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.center {
+  flex-grow: 1;
+  /* flex: 1; */
+}
+
+
+.header {
+  flex-grow: 0;
+}
+
+.footer {
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 300px;
+  min-width: 300px;
+  margin:16px;
+  padding: 16px;
+}
